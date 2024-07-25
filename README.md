@@ -9,25 +9,40 @@ This repository contains two main components: a Personnel Management System and 
 CongTy Class (congty.cpp and CongTy.h): Represents a company and manages employees.
 
 CongTy::hienThiThongTin(): Displays company information.
+
 CongTy::themNhanVien(): Adds an employee to the company.
+
 CongTy::hienThiDanhSachNhanVien(): Displays the list of employees.
+
 NhanVien Class (NhanVien.h): Represents an employee.
 
 NhanVien::getTen(): Retrieves the employee's name.
+
 NhanVien::getTuoi(): Retrieves the employee's age.
+
 NhanVien::hienThiThongTin(): Displays employee information.
-Sales Management System
+
+### Sales Management System
 
 SanPham Class (sanpham.cpp and SanPham.h): Represents a product and manages sales-related functionalities.
+
 SanPham::getMaSanPham(), SanPham::setMaSanPham(): Retrieves and sets product ID.
+
 SanPham::getGia(), SanPham::setGia(): Retrieves and sets product price.
+
 SanPham::getSoLuong(), SanPham::setSoLuong(): Retrieves and sets quantity purchased.
+
 SanPham::tinhTien(): Calculates total cost based on price and quantity.
+
 SanPham::hienThiThongTin(): Displays product information.
+
 SanPham::operator==(): Compares products based on ID.
+
 SanPham::getTenSanPham(): Retrieves product name.
+
 SanPham::setSoLuongMua(), SanPham::themSoLuong(): Manages quantity operations.
-Usage
+
+## Usage
 ### To use the Personnel Management System:
         // Example usage
             #include "CongTy.h"

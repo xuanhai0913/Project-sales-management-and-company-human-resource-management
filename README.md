@@ -1,7 +1,10 @@
-Project Overview
+# Project Overview
+
 This repository contains two main components: a Personnel Management System and a Sales Management System, implemented in C++.
-Components
-Personnel Management System
+
+## Components
+
+### Personnel Management System
 
 CongTy Class (congty.cpp and CongTy.h): Represents a company and manages employees.
 
@@ -25,7 +28,7 @@ SanPham::operator==(): Compares products based on ID.
 SanPham::getTenSanPham(): Retrieves product name.
 SanPham::setSoLuongMua(), SanPham::themSoLuong(): Manages quantity operations.
 Usage
-To use the Personnel Management System:
+### To use the Personnel Management System:
         // Example usage
             #include "CongTy.h"
             #include "NhanVien.h"
@@ -45,7 +48,7 @@ To use the Personnel Management System:
             
                 return 0;
             }
-To use the Sales Management System:
+### To use the Sales Management System:
 
         // Example usage
         #include "SanPham.h"
@@ -59,6 +62,6 @@ To use the Sales Management System:
         
             return 0;
         }
-Notes
+# Notes
 Ensure all necessary headers (CongTy.h, NhanVien.h, SanPham.h) are included in your project.
 Modify and expand classes/functions as needed to suit specific requirements.
